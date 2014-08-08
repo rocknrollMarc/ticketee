@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :ticket do
-    title "Example ticket"
+    title "Non-standards compliance"
     description "An example ticket, nothing more"
   end
 end

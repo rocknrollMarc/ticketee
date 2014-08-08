@@ -6,12 +6,12 @@ feature "Viewing tickets" do
 
     create(:ticket, 
            project: "Send and store",
-           title: "Make it shiny!",
+           title: "Non-standards compliance",
            description: "Gradients! Starbursts! Oh my!")
 
     create(:ticket,
           project: nukeTheCuke,
-          title: "Standards compliance",
+          title: "Non-standards compliance",
           description: " Isnt a joke.")
 
     visit "/"
