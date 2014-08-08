@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 group :test, :devlopment do
   gem 'rspec-rails', "~> 2.14"
+  gem 'guard-rspec'
+  gem 'guard-rails'
 end
 
 group :test do
