@@ -18,6 +18,14 @@ group :test, :devlopment do
   gem 'rspec-rails', "~> 2.14"
   gem 'guard-rspec'
   gem 'guard-rails'
+  gem 'rb-fsevent'
+  gem 'growl_notify'
+  gem 'growl'
+  gem 'libnotify'
+end
+
+group :development do
+   gem 'terminal-notifier-guard'
 end
 
 group :test do
