@@ -17,15 +17,15 @@ gem 'coffee-rails', '~> 4.0.0'
 group :test, :devlopment do
   gem 'rspec-rails', "~> 2.14"
   gem 'guard-rspec'
-  gem 'guard-rails'
   gem 'rb-fsevent'
   gem 'growl_notify'
-  gem 'growl'
-  gem 'libnotify'
+  gem 'growl', "1.0.3"
 end
 
 group :development do
    gem 'terminal-notifier-guard'
+   gem 'better_errors'
+   gem 'binding_of_caller'
 end
 
 group :test do
