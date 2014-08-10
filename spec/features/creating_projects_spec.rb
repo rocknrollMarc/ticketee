@@ -1,5 +1,9 @@
 require "spec_helper"
 
+before do
+  sign_in_as!(FactoryGirl.create(:admin_user))
+end
+
 feature 'Creating Projects' do
   scenario "can create projects" do
     visit "/"
