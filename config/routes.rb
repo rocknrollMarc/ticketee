@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
 
-  get 'users/new'
 
-  get 'users/create'
+  get "/signin", to: "sessions#new"
 
-  get 'users/show'
+  post "/signin", to: "sessions#create"
 
   get 'tickets/new'
 
