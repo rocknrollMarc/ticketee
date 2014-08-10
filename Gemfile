@@ -20,6 +20,7 @@ group :test, :devlopment do
   gem 'rb-fsevent'
   gem 'growl_notify'
   gem 'growl', "1.0.3"
+  gem 'guard-bundler'
 end
 
 group :development do
@@ -27,6 +28,8 @@ group :development do
    gem 'better_errors'
    gem 'binding_of_caller'
 end
+
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :test do
   gem 'capybara', "2.1.0"
