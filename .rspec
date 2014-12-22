@@ -1,0 +1,4 @@
+--require rspec/legacy_formatters
+--color
+--format documentation
+--format Fuubar
